@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="desc-780,ription" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header-wrapper">
+<div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#"><strong>Similaridade entre imagens</strong></a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#" accesskey="1" title="">Página Inicial</a></li>
+		</ul>
+	</div>
+</div></div>
+<div id="page" class="container">
+	<div id="content">
+		<div class="title">
+			<h2>Bem-vindo!</h2>
+			<span class="byline">Desenvolvido por: Kamilla, Mayara e Eliane</span> </div>
+			<input type="checkbox" name="box1" value="one"> Comparação das duas imagens<br>
+			<input type="checkbox" name="box2" value="two"> Recuperação de imagens a partir de imagens de consulta <br>		
+		<div id="onecolumn">
+			<div class="title">
+				<h2>Selecione a imagem de consulta:</h2><br>
+					<input type="file" onchange="document.getElementById('img').src = window.URL.createObjectURL(this.files[0])">
+                    <img id="img" class="image" alt=""/>
+			</div>
+			
+			<ul class="actions">
+					<li><a href="#" class="button">Executar</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	<div id="sidebar">
+		<ul class="style1">
+			<li>
+				<h3>Resultados</h3>
+					<form id="resulty">
+                    <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                </form>
+				
+			</li>
+		</ul>
+		<div id="stwo-col">
+			<div class="sbox1">
+				<h2>Blocos</h2>
+				<ul class="style2">
+					<form>
+					Horizontal:<br>
+					<input type="number" class="button3" name="vertical"><br><br><br>
+					Vertical:<br>
+					<input type="number" class="button3" name="horizontal"><br><br>
+					</form>
+				</ul>
+			</div>
+			<div class="sbox2">
+				<h2>Info</h2>
+				<ul class="style2">
+					<form>
+					Cor:<br>
+					<input type="text" class="button3" name="cor"><br><br><br>
+					Estrutura:<br>
+					<input type="number" class="button3" name="est"><br><br>
+					</form>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="copyright">
+	<p>&copy; Recall x Precision. All rights reserved.
+</div>
+</body>
+</html>
